@@ -59,4 +59,4 @@ class PaperclipViewDecorator
   @decorate   : (view, options) -> new PaperclipViewDecorator view, options
 
 
-module.exports = (mojo) -> mojo.decorator PaperclipViewDecorator
+module.exports = (mojo) -> mojo.decorator { decorator: PaperclipViewDecorator, inheritable: false }
