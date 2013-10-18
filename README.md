@@ -1,4 +1,5 @@
-mojo-paperclip
-==============
+### Installation
 
-mojo.js paperclip plugin
+```javascript
+require("mojojs").use(require("mojo-paperclip"));
+```
