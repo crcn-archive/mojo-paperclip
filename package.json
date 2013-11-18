@@ -1,6 +1,6 @@
 {
   "name": "mojo-paperclip",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "mojo-paperclip ==============",
   "main": "./lib/index.js",
   "keywords": ["paperclip", "mojo-plugin"],
