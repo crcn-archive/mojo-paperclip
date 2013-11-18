@@ -54,7 +54,8 @@ class PaperclipViewDecorator
 
   ###
   ###
-
+  
+  @priority   : "render"
   @getOptions : (view) -> view.__isView
   @decorate   : (view, options) -> new PaperclipViewDecorator view, options
 
