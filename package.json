@@ -1,9 +1,9 @@
 {
   "name": "mojo-paperclip",
   "version": "0.0.3",
-  "description": "mojo-paperclip ==============",
+  "description": "paperclip template engine for mojo.js",
   "main": "./lib/index.js",
-  "keywords": ["paperclip", "mojo-plugin"],
+  "keywords": ["paperclip", "mojo-plugin", "template"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
