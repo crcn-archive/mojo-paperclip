@@ -20,7 +20,7 @@ class PaperclipViewDecorator
     if type(template) isnt "function"
       throw new Error "paper template must be a function for view \"#{@view.constructor.name}\""
 
-    @template = paperclip.template template
+    @template = paperclip.template template, @view.application
 
     if @_rendered
       @cleanup true
