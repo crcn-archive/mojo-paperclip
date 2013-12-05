@@ -8,8 +8,7 @@ class PaperclipViewDecorator
 
   constructor: (@view) ->
     @view.once "render", @render
-    @view.once "dispose", @remove
-    @view._define "paper"
+    @view.once "dispose", @dispose
     @view.bind("paper").to(@_onTemplateChange).now()
 
   ###
@@ -20,10 +19,12 @@ class PaperclipViewDecorator
     if type(template) isnt "function"
       throw new Error "paper template must be a function for view \"#{@view.constructor.name}\""
 
+    # make the template
     @template = paperclip.template template, @view.application
 
+    # rendered? re-render
     if @_rendered
-      @cleanup true
+      @dispose()
       @render()
 
 
@@ -31,26 +32,25 @@ class PaperclipViewDecorator
   ###
 
   render: () =>
+
+    # dispose just incase
+    @dispose()
+
     @_rendered = true
-    @content = undefined
+
+    # return if there isn't a template
     return unless @template
-    @content = @template.bind @view
-    @content.section.show()
-    @view.section.append @content.section.toFragment()
+
+    # create the content, and add to the view
+    @view.section.append (@content = @template.bind(@view)).toFragment()
+
 
   ###
   ###
 
-  remove: () => 
-    @cleanup()
-
-  ###
-  ###
-
-  cleanup: (hide) =>
-    @content?.unbind()
-    if hide
-      @content?.section.hide()
+  dispose: () =>
+    return unless @content
+    @content.dispose()
 
   ###
   ###
