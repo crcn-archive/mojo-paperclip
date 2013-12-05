@@ -8,7 +8,7 @@ class PaperclipViewDecorator
 
   constructor: (@view) ->
     @view.on "render", @render
-    @view.on "dispose", @dispose
+    @view.on "remove", @remove
     @view.bind("paper").to(@_onTemplateChange).now()
 
   ###
@@ -34,7 +34,7 @@ class PaperclipViewDecorator
   render: () =>
 
     # dispose just incase
-    @dispose()
+    @remove()
 
     @_rendered = true
 
@@ -48,7 +48,7 @@ class PaperclipViewDecorator
   ###
   ###
 
-  dispose: () =>
+  remove: () =>
     return unless @content
     @content.dispose()
 
