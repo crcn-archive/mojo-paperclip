@@ -34,7 +34,7 @@ class PaperclipViewDecorator
   render: () =>
 
     # dispose just incase
-    @remove()
+    @remove(true)
 
     @_rendered = true
 
@@ -48,9 +48,13 @@ class PaperclipViewDecorator
   ###
   ###
 
-  remove: () =>
+  remove: (hard) =>
     return unless @content
-    @content.dispose()
+
+    if hard
+      @content.dispose()
+    else
+      @content.unbind()
 
   ###
   ###
