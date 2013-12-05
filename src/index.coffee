@@ -9,6 +9,7 @@ class PaperclipViewDecorator
   constructor: (@view) ->
     @view.on "render", @render
     @view.on "remove", @remove
+    @view._define "paper"
     @view.bind("paper").to(@_onTemplateChange).now()
 
   ###
