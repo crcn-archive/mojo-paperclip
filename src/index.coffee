@@ -7,8 +7,8 @@ class PaperclipViewDecorator
   ###
 
   constructor: (@view) ->
-    @view.once "render", @render
-    @view.once "dispose", @dispose
+    @view.on "render", @render
+    @view.on "dispose", @dispose
     @view.bind("paper").to(@_onTemplateChange).now()
 
   ###
