@@ -24,7 +24,7 @@ class PaperclipViewDecorator
 
     # rendered? re-render
     if @_rendered
-      @dispose()
+      @remove(true)
       @render()
 
 
