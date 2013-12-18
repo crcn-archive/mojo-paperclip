@@ -65,5 +65,5 @@ module.exports.decorator = {
   priority: "render"
   getOptions: (view) -> view.__isView
   decorate: (view, options) -> new PaperclipViewDecorator view, options
-  max: 1
+  multi: false
 }
