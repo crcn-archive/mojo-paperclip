@@ -57,17 +57,13 @@ class PaperclipViewDecorator
     else
       @content.unbind()
 
-  ###
-  ###
-  
-  @getOptions : (view) -> view.__isView
-  @decorate   : (view, options) -> new PaperclipViewDecorator view, options
-
 
 module.exports = (app) -> 
   app.decorator module.exports.decorator
+
 module.exports.decorator = { 
   priority: "render"
-  decorator: PaperclipViewDecorator, 
-  inheritable: false 
+  getOptions: (view) -> view.__isView
+  decorate: (view, options) -> new PaperclipViewDecorator view, options
+  max: 1
 }
