@@ -1,5 +1,6 @@
 paperclip = require "paperclip"
 type      = require "type-component"
+runlater  = require("runlater").global
 
 class PaperclipViewDecorator  
 
@@ -55,7 +56,8 @@ class PaperclipViewDecorator
     if hard
       @content.dispose()
     else
-      @content.unbind()
+      runlater () =>
+        @content.unbind()
 
 
 module.exports = (app) -> 
