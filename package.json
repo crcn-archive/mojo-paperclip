@@ -1,6 +1,6 @@
 {
   "name": "mojo-paperclip",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "paperclip template engine for mojo.js",
   "main": "./lib/index.js",
   "keywords": ["paperclip", "mojo-plugin", "template"],
@@ -16,7 +16,8 @@
   "readmeFilename": "README.md",
   "gitHead": "ab5f48c874ff918120dc60d4a86bf27c0d6cbcf3",
   "devDependencies": {
-    "coffee-script": "~1.6.3"
+    "coffee-script": "~1.6.3",
+    "mojo": "0.7.x"
   },
   "dependencies": {
     "type-component": "0.0.1",
