@@ -1,0 +1,128 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.21
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/craig/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-5556-t7NArCY_/1388807160405-0.03291461360640824/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-5556-t7NArCY_/1388807160405-0.03291461360640824/tmp.tgz
+12 verbose folder .
+13 silly lockFile 1f1177db-tar tar://.
+14 verbose lock tar://. /Users/craig/.npm/1f1177db-tar.lock
+15 silly lockFile 8b91f040-0405-0-03291461360640824-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-5556-t7NArCY_/1388807160405-0.03291461360640824/tmp.tgz
+16 verbose lock tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-5556-t7NArCY_/1388807160405-0.03291461360640824/tmp.tgz /Users/craig/.npm/8b91f040-0405-0-03291461360640824-tmp-tgz.lock
+17 silly lockFile 1f1177db-tar tar://.
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 8b91f040-0405-0-03291461360640824-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-5556-t7NArCY_/1388807160405-0.03291461360640824/tmp.tgz
+20 silly lockFile 8b91f040-0405-0-03291461360640824-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-5556-t7NArCY_/1388807160405-0.03291461360640824/tmp.tgz
+21 verbose tar unpack /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-5556-t7NArCY_/1388807160405-0.03291461360640824/tmp.tgz
+22 silly lockFile 6ed87e0f-0405-0-03291461360640824-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-5556-t7NArCY_/1388807160405-0.03291461360640824/package
+23 verbose lock tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-5556-t7NArCY_/1388807160405-0.03291461360640824/package /Users/craig/.npm/6ed87e0f-0405-0-03291461360640824-package.lock
+24 silly lockFile 8b91f040-0405-0-03291461360640824-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-5556-t7NArCY_/1388807160405-0.03291461360640824/tmp.tgz
+25 verbose lock tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-5556-t7NArCY_/1388807160405-0.03291461360640824/tmp.tgz /Users/craig/.npm/8b91f040-0405-0-03291461360640824-tmp-tgz.lock
+26 silly gunzTarPerm modes [ '755', '644' ]
+27 silly gunzTarPerm extractEntry package.json
+28 silly gunzTarPerm extractEntry .npmignore
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm extractEntry lib/index.js
+31 silly lockFile 6ed87e0f-0405-0-03291461360640824-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-5556-t7NArCY_/1388807160405-0.03291461360640824/package
+32 silly lockFile 6ed87e0f-0405-0-03291461360640824-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-5556-t7NArCY_/1388807160405-0.03291461360640824/package
+33 silly lockFile 8b91f040-0405-0-03291461360640824-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-5556-t7NArCY_/1388807160405-0.03291461360640824/tmp.tgz
+34 silly lockFile 8b91f040-0405-0-03291461360640824-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-5556-t7NArCY_/1388807160405-0.03291461360640824/tmp.tgz
+35 verbose tar pack [ '/Users/craig/.npm/mojo-paperclip/0.3.2/package.tgz',
+35 verbose tar pack   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-5556-t7NArCY_/1388807160405-0.03291461360640824/package' ]
+36 verbose tarball /Users/craig/.npm/mojo-paperclip/0.3.2/package.tgz
+37 verbose folder /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-5556-t7NArCY_/1388807160405-0.03291461360640824/package
+38 silly lockFile 6ed87e0f-0405-0-03291461360640824-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-5556-t7NArCY_/1388807160405-0.03291461360640824/package
+39 verbose lock tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-5556-t7NArCY_/1388807160405-0.03291461360640824/package /Users/craig/.npm/6ed87e0f-0405-0-03291461360640824-package.lock
+40 silly lockFile 1ff1e6c1-mojo-paperclip-0-3-2-package-tgz tar:///Users/craig/.npm/mojo-paperclip/0.3.2/package.tgz
+41 verbose lock tar:///Users/craig/.npm/mojo-paperclip/0.3.2/package.tgz /Users/craig/.npm/1ff1e6c1-mojo-paperclip-0-3-2-package-tgz.lock
+42 silly lockFile 6ed87e0f-0405-0-03291461360640824-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-5556-t7NArCY_/1388807160405-0.03291461360640824/package
+43 silly lockFile 6ed87e0f-0405-0-03291461360640824-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-5556-t7NArCY_/1388807160405-0.03291461360640824/package
+44 silly lockFile 1ff1e6c1-mojo-paperclip-0-3-2-package-tgz tar:///Users/craig/.npm/mojo-paperclip/0.3.2/package.tgz
+45 silly lockFile 1ff1e6c1-mojo-paperclip-0-3-2-package-tgz tar:///Users/craig/.npm/mojo-paperclip/0.3.2/package.tgz
+46 silly lockFile ded56b7a-npm-mojo-paperclip-0-3-2-package /Users/craig/.npm/mojo-paperclip/0.3.2/package
+47 verbose lock /Users/craig/.npm/mojo-paperclip/0.3.2/package /Users/craig/.npm/ded56b7a-npm-mojo-paperclip-0-3-2-package.lock
+48 silly lockFile ded56b7a-npm-mojo-paperclip-0-3-2-package /Users/craig/.npm/mojo-paperclip/0.3.2/package
+49 silly lockFile ded56b7a-npm-mojo-paperclip-0-3-2-package /Users/craig/.npm/mojo-paperclip/0.3.2/package
+50 verbose tar unpack /Users/craig/.npm/mojo-paperclip/0.3.2/package.tgz
+51 silly lockFile 03178ea7-npm-mojo-paperclip-0-3-2-package tar:///Users/craig/.npm/mojo-paperclip/0.3.2/package
+52 verbose lock tar:///Users/craig/.npm/mojo-paperclip/0.3.2/package /Users/craig/.npm/03178ea7-npm-mojo-paperclip-0-3-2-package.lock
+53 silly lockFile 1ff1e6c1-mojo-paperclip-0-3-2-package-tgz tar:///Users/craig/.npm/mojo-paperclip/0.3.2/package.tgz
+54 verbose lock tar:///Users/craig/.npm/mojo-paperclip/0.3.2/package.tgz /Users/craig/.npm/1ff1e6c1-mojo-paperclip-0-3-2-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 silly gunzTarPerm extractEntry package.json
+57 silly gunzTarPerm extractEntry .npmignore
+58 silly gunzTarPerm extractEntry README.md
+59 silly gunzTarPerm extractEntry lib/index.js
+60 silly lockFile 03178ea7-npm-mojo-paperclip-0-3-2-package tar:///Users/craig/.npm/mojo-paperclip/0.3.2/package
+61 silly lockFile 03178ea7-npm-mojo-paperclip-0-3-2-package tar:///Users/craig/.npm/mojo-paperclip/0.3.2/package
+62 silly lockFile 1ff1e6c1-mojo-paperclip-0-3-2-package-tgz tar:///Users/craig/.npm/mojo-paperclip/0.3.2/package.tgz
+63 silly lockFile 1ff1e6c1-mojo-paperclip-0-3-2-package-tgz tar:///Users/craig/.npm/mojo-paperclip/0.3.2/package.tgz
+64 verbose chmod /Users/craig/.npm/mojo-paperclip/0.3.2/package.tgz 644
+65 verbose chown /Users/craig/.npm/mojo-paperclip/0.3.2/package.tgz [ 501, 20 ]
+66 silly lockFile 3a52ce78- .
+67 silly lockFile 3a52ce78- .
+68 silly publish { name: 'mojo-paperclip',
+68 silly publish   version: '0.3.2',
+68 silly publish   description: 'paperclip template engine for mojo.js',
+68 silly publish   main: './lib/index.js',
+68 silly publish   keywords: [ 'paperclip', 'mojo-plugin', 'template' ],
+68 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+68 silly publish   repository:
+68 silly publish    { type: 'git',
+68 silly publish      url: 'git://github.com/classdojo/mojo-paperclip.git' },
+68 silly publish   author: '',
+68 silly publish   license: 'BSD',
+68 silly publish   readmeFilename: 'README.md',
+68 silly publish   gitHead: 'ab5f48c874ff918120dc60d4a86bf27c0d6cbcf3',
+68 silly publish   devDependencies: { 'coffee-script': '~1.6.3', mojo: '0.7.x' },
+68 silly publish   dependencies: { 'type-component': '0.0.1', paperclip: '0.3.x' },
+68 silly publish   readme: '### Installation\n\n```javascript\nrequire("mojojs").use(require("mojo-paperclip"));\n```',
+68 silly publish   bugs: { url: 'https://github.com/classdojo/mojo-paperclip/issues' },
+68 silly publish   _id: 'mojo-paperclip@0.3.2',
+68 silly publish   dist: { shasum: '8be703fb1706bd55f86dc759247883442fdcecef' },
+68 silly publish   _from: '.' }
+69 verbose url raw mojo-paperclip
+70 verbose url resolving [ 'http://registry.npmjs.org/', './mojo-paperclip' ]
+71 verbose url resolved http://registry.npmjs.org/mojo-paperclip
+72 info trying registry request attempt 1 at 21:46:00
+73 http PUT http://registry.npmjs.org/mojo-paperclip
+74 http 409 http://registry.npmjs.org/mojo-paperclip
+75 verbose url raw mojo-paperclip
+76 verbose url resolving [ 'http://registry.npmjs.org/', './mojo-paperclip' ]
+77 verbose url resolved http://registry.npmjs.org/mojo-paperclip
+78 info trying registry request attempt 1 at 21:46:00
+79 http GET http://registry.npmjs.org/mojo-paperclip
+80 http 200 http://registry.npmjs.org/mojo-paperclip
+81 error publish fail Cannot publish over existing version.
+81 error publish fail Update the 'version' field in package.json and try again.
+81 error publish fail
+81 error publish fail If the previous version was published in error, see:
+81 error publish fail     npm help unpublish
+81 error publish fail
+81 error publish fail To automatically increment version numbers, see:
+81 error publish fail     npm help version
+82 error System Darwin 13.0.0
+83 error command "node" "/usr/local/bin/npm" "publish"
+84 error cwd /Users/craig/Developer/Public/mojo-paperclip
+85 error node -v v0.10.21
+86 error npm -v 1.3.11
+87 error code EPUBLISHCONFLICT
+88 verbose exit [ 1, true ]
