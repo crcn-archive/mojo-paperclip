@@ -1,9 +1,13 @@
 {
   "name": "mojo-paperclip",
-  "version": "0.4.0",
+  "version": "0.4.4",
   "description": "paperclip template engine for mojo.js",
   "main": "./lib/index.js",
-  "keywords": ["paperclip", "mojo-plugin", "template"],
+  "keywords": [
+    "paperclip",
+    "mojo-plugin",
+    "template"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,10 +21,11 @@
   "gitHead": "ab5f48c874ff918120dc60d4a86bf27c0d6cbcf3",
   "devDependencies": {
     "coffee-script": "~1.6.3",
-    "mojo": "0.7.x"
+    "mojojs": "0.7.x"
   },
   "dependencies": {
     "type-component": "0.0.1",
-    "paperclip": "0.3.x"
+    "paperclip": "0.3.x",
+    "protoclass": "0.0.x"
   }
 }
