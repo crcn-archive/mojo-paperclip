@@ -1,5 +1,5 @@
 ### Installation
 
 ```javascript
-require("mojojs").use(require("mojo-paperclip"));
+npm install mojo-paperclip
 ```
