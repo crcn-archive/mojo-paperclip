@@ -14,6 +14,7 @@ npm install mojo-paperclip
 var views = require("mojo-views");
 
 application.use(views);
+application.use(require("mojo-paperclip"));
 
 var SomeView = views.Base.extend({  
   paper: "<h1>Hello {{name}}</h1>"
