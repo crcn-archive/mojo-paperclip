@@ -1,6 +1,6 @@
 {
   "name": "mojo-paperclip",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "description": "paperclip template engine for mojo.js",
   "main": "./lib/index.js",
   "keywords": [
@@ -8,6 +8,7 @@
     "mojo-plugin",
     "template"
   ],
+  "transform": "./node_modules/paperclip/lib/transform.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
