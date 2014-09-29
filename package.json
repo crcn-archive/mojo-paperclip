@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/classdojo/mojo-paperclip.git"
+    "url": "https://github.com/mojo-js/mojo-paperclip"
   },
   "author": "",
   "license": "BSD",
