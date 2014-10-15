@@ -1,6 +1,6 @@
 {
   "name": "mojo-paperclip",
-  "version": "0.6.4",
+  "version": "0.6.5",
   "description": "paperclip template engine for mojo.js",
   "main": "./lib/index.js",
   "keywords": [
